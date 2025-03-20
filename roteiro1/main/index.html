@@ -577,15 +577,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#app" class="md-nav__link">
-    <span class="md-ellipsis">
-      App
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -857,15 +848,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#app" class="md-nav__link">
-    <span class="md-ellipsis">
-      App
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -936,20 +918,19 @@
 <li>Clonamos o repositório do projeto (via Git).  </li>
 <li>Entramos no diretório do projeto e instalamos a aplicação.</li>
 </ol>
+<p>A diferenca da implementacao, foi que para o Postgre, tivemos que acessar o Maas manualmente e fazer o deploy no proprio dashboard. Ja para o Django, pedimos uma maquina no terminal CLI e fizemos o deploy por meio desse tambem.</p>
 <h4 id="evidencias-imagens_2">Evidências (Imagens)</h4>
 <p><a class="glightbox" href="../Tarefa%203.1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Tarefa 3.1" src="../Tarefa%203.1.png" /></a><br />
 <a class="glightbox" href="../Tarefa%203.2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Tarefa 3.2" src="../Tarefa%203.2.png" /></a></p>
 <hr />
 <h3 id="tarefa-4-instalacao-do-django-no-server-3-via-ansible">Tarefa 4: Instalação do Django no Server 3 via Ansible</h3>
-<p>Nesta tarefa, repetimos a instalação do Django, porém no server 3, de forma automatizada com o Ansible. Em vez de realizar todos os passos manualmente, utilizamos playbooks, garantindo padronização, rapidez na configuração e facilidade na reexecução ou escalabilidade.</p>
+<p>Nesta tarefa, repetimos a instalação do Django, porém no server 3, de forma automatizada com o Ansible. Em vez de realizar todos os passos manualmente, utilizamos playbooks</p>
 <p>Máquinas com os deploys feitos e seus IPs:</p>
 <ul>
 <li>Túnel para o server 2: <code>172.16.0.10</code>  </li>
 <li>Túnel para o server 2: <code>172.16.0.11</code></li>
 </ul>
-<p><strong>Diferenças entre instalação manual e via Ansible</strong><br />
-- <strong>Manual</strong>: todos os passos são feitos “na mão” (configuração de ambiente, instalação de dependências, ajustes de arquivos), o que pode ser demorado e suscetível a erros.<br />
-- <strong>Ansible</strong>: todo o processo é definido em playbooks, garantindo padronização, rapidez e praticidade na reexecução ou expansão para múltiplos servidores.</p>
+<p>A diferença é que, ao instalar manualmente a aplicação Django, todos os passos necessários nós fizemos manualmente , o que levou mais tempo e poderiamos ter cometido algum erro. Já com o Ansible, todo esse processo é automatizado por meio de playbooks, garantindo padronização. Isso reduz significativamente o tempo necessário para configurar novos servidores e minimiza erros, além de que se desejarmos exapndir colocando mais maquinas com django, basta replicar a instalação que será identica para todos</p>
 <h4 id="evidencias-imagens_3">Evidências (Imagens)</h4>
 <p><a class="glightbox" href="../Tarefa%204.1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Tarefa 4.1" src="../Tarefa%204.1.png" /></a><br />
 <a class="glightbox" href="../Tarefa%204.2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Tarefa 4.2" src="../Tarefa%204.2.png" /></a><br />
@@ -963,7 +944,6 @@
 <a class="glightbox" href="../Tarefa%205.2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Tarefa 5.2" src="../Tarefa%205.2.png" /></a><br />
 <a class="glightbox" href="../Tarefa%205.3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Tarefa 5.3" src="../Tarefa%205.3.png" /></a></p>
 <hr />
-<h2 id="app">App</h2>
 
 
 
