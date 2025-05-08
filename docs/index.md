@@ -6,17 +6,17 @@
     2025.1
 
 
-## KIT-P
+## KIT-W
 
-João da Silva
+Stefano Lindenbojm
 
-Pedro de Souza
+Fernando Fiore
 
 
 ## Entregas
 
 - [x] Roteiro 1 - Data 23/02/2025
-- [ ] Roteiro 2
+- [x] Roteiro 2 - Data 24/03/2025
 - [ ] Roteiro 3
 - [ ] Roteiro 4
 - [ ] Projeto
